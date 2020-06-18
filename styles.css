@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5C1919;
+    color: #F0DFB4;
+    font-family: 'Roboto', sans-serif;
+    height: 7.8vw;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5vh;
+    margin-left: 4vw;
+    font-size: 5vw;
+    letter-spacing: .05em;
+}
+
+.header-menu-bar {
+    display: flex;
+    flex-direction: row;
+
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+
+    margin-top: 2.5vw;    
+    margin-right: 3vw;
+
+    
+}
+
+.menu-bar-except-checkout {
+    display: flex;
+    flex-direction: row;
+    
+    margin-right: 4vw;
+    font-size: 2.5vw;
+}
+
+.top-bar-item {
+    display: flex;
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+
+}
+
+body {
+    background-color: #F0DFB4;
+}
+
+.checkout {
+    margin-top: -15px;
+    align-content: center;
+}
+
+.footer-menu-bar {
+    display: none;
+}
+
+@media (max-width: 857px) {
+    .header-menu-bar {
+        display: none;
+    }
+
+    .header-container {
+        height: 100px;
+    }
+
+    .name {
+        display: flex;
+        font-size: 4em;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        background-color: red;
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+        
+    }
+
+    .footer-menu-bar {
+        display: flex;
+        flex-direction: row;
+
+        width: 100%;
+        height: 100px;
+
+        justify-content: space-between;
+
+
+        position: static;
+    }
+
+    .bottom-bar-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        
+        text-align: center;
+        font-size: 20pt;
+    }
+
+    .home-footer {
+        background-color: orange;
+    }
+
+    .menu-footer {
+        background-color: white;
+    }
+
+    .checkout-footer {
+        background-color: pink;
+        padding: 10px;
+        margin-top: -10px;
+        font-size: 13pt;
+    }
+
+    .more-photo {
+        margin-top: 18px;
+        background-color: green;
+    }
+
+    .more-text {
+        margin-top: 5px;
+        background-color: brown;
+    }
+}
+
