@@ -83,7 +83,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background-color: red;
+        /*background-color: red;*/
 
         position: absolute;
         bottom: 0;
@@ -122,7 +122,7 @@ body {
     }
 
     .home-footer {
-        background-color: orange;
+        /* background-color: orange; */
         
     }
 
@@ -131,7 +131,7 @@ body {
     }
 
     .checkout-footer {
-        background-color: pink;
+        /* background-color: pink; */
         padding: 10px;
         margin-top: -10px;
         font-size: 13pt;
@@ -139,7 +139,7 @@ body {
 
     .more-photo {
         margin-top: 18px;
-        background-color: green;
+        /* background-color: green; */
     }
 
     .more-text {
